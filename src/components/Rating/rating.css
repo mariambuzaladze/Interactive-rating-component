@@ -21,3 +21,8 @@ h1 {
   line-height: 1.57;
   color: #969fad;
 }
+
+.button {
+  display: flex;
+  gap: 17px;
+}
