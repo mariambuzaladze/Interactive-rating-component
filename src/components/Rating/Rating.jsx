@@ -3,9 +3,8 @@ import Buttons from "../Buttons/Buttons";
 import Star from "/images/icon-star.svg";
 import { useState } from "react";
 
-export default function Rating() {
+export default function Rating({ setSubmit, setRate, rate }) {
   const buttons = [1, 2, 3, 4, 5];
-  const [rate, setRate] = useState();
 
   return (
     <div className="container">
@@ -24,13 +23,21 @@ export default function Rating() {
       <div className="numbers">
         {buttons.map((button) => (
           <Buttons
-            onClick={() => setRate({ button })}
+            onClick={() => setRate(button)}
             key={button}
             text={button}
+            style={rate === button ? { backgroundColor: "#fc7614" } : {}}
           />
         ))}
       </div>
-      <button className="submit">SUBMIT</button>
+      <button
+        onClick={() => {
+          rate && setSubmit(true);
+        }}
+        className="submit"
+      >
+        SUBMIT
+      </button>
     </div>
   );
 }
