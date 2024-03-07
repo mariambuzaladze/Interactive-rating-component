@@ -4,4 +4,46 @@ button {
   font-weight: bold;
   line-height: 1.71;
   letter-spacing: 0.18px;
+  background-color: #262e38;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 0.4s;
+}
+
+.button {
+  background-image: url(/images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.number {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 0.18px;
+  color: #7c8798;
+  cursor: pointer;
+}
+
+.number:hover {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+.submit {
+  width: 279px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #fc7614;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.87px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #fc7614;
 }
