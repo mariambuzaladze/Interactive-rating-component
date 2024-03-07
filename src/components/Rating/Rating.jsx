@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./rating.css";
 import Buttons from "../Buttons/Buttons";
 

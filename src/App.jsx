@@ -2,7 +2,7 @@ import "./App.css";
 import Rating from "./components/Rating/Rating";
 
 function App() {
-  return <></>;
+  return <Rating />;
 }
 
 export default App;
