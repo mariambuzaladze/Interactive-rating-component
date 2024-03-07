@@ -3,6 +3,8 @@
   flex-direction: column;
   padding: 24px;
   gap: 24px;
+  border-radius: 15px;
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
 }
 
 .text {
