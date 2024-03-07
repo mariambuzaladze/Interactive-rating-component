@@ -1,11 +1,8 @@
-import { useState } from "react";
 import "./rating.css";
 import Buttons from "../Buttons/Buttons";
+import Star from "/images/icon-star.svg";
 
 export default function Rating() {
-  const [text, setText] = useState("");
-  const [className, setClassName] = useState("button");
-
   function displayButtons() {
     const buttons = [];
     for (let i = 1; i < 6; i++) {
@@ -16,7 +13,9 @@ export default function Rating() {
 
   return (
     <div className="container">
-      <Buttons text={text} className={className} />
+      <div className="star">
+        <img src={Star} alt="star icon" />
+      </div>
 
       <div className="text">
         <h1>How did we do?</h1>
@@ -26,8 +25,8 @@ export default function Rating() {
         </p>
       </div>
 
-      <div className="button">{displayButtons()}</div>
-      <Buttons text="SUBMIT" className="submit" />
+      <div className="numbers">{displayButtons()}</div>
+      <button className="submit">SUBMIT</button>
     </div>
   );
 }

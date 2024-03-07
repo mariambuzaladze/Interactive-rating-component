@@ -24,7 +24,39 @@ h1 {
   color: #969fad;
 }
 
-.button {
+.numbers {
   display: flex;
   gap: 17px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262e38;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.number:hover {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+.submit {
+  width: 279px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #fc7614;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.87px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #fc7614;
 }
