@@ -9,6 +9,13 @@ export default function Rating() {
   return (
     <div className="container">
       <Buttons text="" img={img} />
+      <div className="text">
+        <h1>How did we do?</h1>
+        <p className="request">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
     </div>
   );
 }
