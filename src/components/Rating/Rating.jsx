@@ -3,13 +3,7 @@ import Buttons from "../Buttons/Buttons";
 import Star from "/images/icon-star.svg";
 
 export default function Rating() {
-  function displayButtons() {
-    const buttons = [];
-    for (let i = 1; i < 6; i++) {
-      buttons.push(<Buttons key={i} text={i} className="number" />);
-    }
-    return buttons;
-  }
+  const buttons = [1, 2, 3, 4, 5];
 
   return (
     <div className="container">
@@ -25,7 +19,11 @@ export default function Rating() {
         </p>
       </div>
 
-      <div className="numbers">{displayButtons()}</div>
+      <div className="numbers">
+        {buttons.map((button) => (
+          <Buttons key={button} text={button} />
+        ))}
+      </div>
       <button className="submit">SUBMIT</button>
     </div>
   );

@@ -1,4 +1,5 @@
 .container {
+  width: 327px;
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -26,7 +27,7 @@ h1 {
 
 .numbers {
   display: flex;
-  gap: 17px;
+  justify-content: space-between;
 }
 
 .star {
@@ -45,7 +46,7 @@ h1 {
 }
 
 .submit {
-  width: 279px;
+  width: 100%;
   height: 45px;
   border-radius: 22.5px;
   background-color: #fc7614;
@@ -59,4 +60,28 @@ h1 {
 .submit:hover {
   background-color: #fff;
   color: #fc7614;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 412px;
+    padding: 30px;
+  }
+
+  .star {
+    width: 48px;
+    height: 48px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .request {
+    font-size: 15px;
+  }
+
+  .submit {
+    font-size: 15px;
+  }
 }
