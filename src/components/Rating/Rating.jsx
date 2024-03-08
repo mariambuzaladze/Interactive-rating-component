@@ -23,7 +23,9 @@ export default function Rating({ setSubmit, setRate, rate }) {
       <div className="numbers">
         {buttons.map((button) => (
           <Buttons
-            onClick={() => setRate(button)}
+            onClick={() => {
+              setRate(button);
+            }}
             key={button}
             text={button}
             style={rate === button ? { backgroundColor: "#fc7614" } : {}}
