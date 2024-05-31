@@ -1,8 +1,15 @@
-# React + Vite
+# Interactive Rating Component for React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+**This project introduces a dynamic Interactive Rating Component built specifically for React applications. It empowers users to effortlessly rate their experiences on a scale of 1 to 5 and submit their feedback with a simple click, enhancing user engagement and interaction.**
 
-Currently, two official plugins are available:
+## Key Features
+**Seamless Integration**: Effortlessly integrate this component into your React applications without hassle.  
+**Intuitive User Interface**: Enjoy a sleek and intuitive interface that offers selectable rating options, ensuring ease of use for all users.  
+**Simple Submission Process**: Submitting feedback is made easy with a clear and straightforward process, followed by a reassuring "thank you" message for users.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact
+Feel free to reach out if you have any questions or feedback:  
+
+**LinkedIn**: https://www.linkedin.com/in/mariam-buzaladze-aa22b6297/  
+**Email**: mariambuzaladze10@gmail.com  
